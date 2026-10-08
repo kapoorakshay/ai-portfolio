@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Akshay — software engineer. About, skills, projects, and contact."
+    />
+    <title>Akshay | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__logo" href="#home">AKSHAY</a>
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__title">Akshay</h1>
+        <p class="hero__tagline">
+          Software engineer building clean, accessible web experiences.
+        </p>
+        <p class="hero__lede">
+          This is a placeholder bio you can replace with your own story. I
+          enjoy turning ideas into simple, useful products.
+        </p>
+        <a class="btn" href="#projects">View Projects</a>
+      </section>
+
+      <section class="section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <div class="about">
+          <div class="about__avatar" aria-hidden="true">
+            <span>A</span>
+          </div>
+          <div class="about__content">
+            <p>
+              I'm a software engineer learning and building on the web. Replace
+              this paragraph with a short introduction: where you are based,
+              what you like to work on, and what you are looking for next.
+            </p>
+            <p class="about__role">
+              Role (placeholder): Junior / aspiring software engineer
+            </p>
+            <p class="about__edu">
+              Education (placeholder): B.S. in Computer Science
+            </p>
+            <ul class="about__highlights">
+              <li>Curious about frontend, APIs, and developer tools</li>
+              <li>Comfortable with HTML, CSS, and JavaScript</li>
+              <li>Learning by shipping small projects end to end</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <h3>Languages</h3>
+            <ul class="chip-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Tools</h3>
+            <ul class="chip-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Concepts</h3>
+            <ul class="chip-list">
+              <li>Responsive design</li>
+              <li>Accessibility</li>
+              <li>REST APIs</li>
+              <li>Version control</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects-grid">
+          <article class="card project-card">
+            <h3>Weather Dashboard</h3>
+            <p>
+              A sample app that shows current conditions and a 5-day forecast
+              for a searched city. Replace this with one of your real projects.
+            </p>
+            <ul class="chip-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <p class="project-card__links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Task Tracker</h3>
+            <p>
+              A placeholder to-do list with filters and local storage so tasks
+              survive a refresh. Swap in your own repo and live demo links.
+            </p>
+            <ul class="chip-list">
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>localStorage</li>
+            </ul>
+            <p class="project-card__links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+            </p>
+          </article>
+          <article class="card project-card">
+            <h3>Recipe Finder</h3>
+            <p>
+              Search sample recipes by ingredient and save favorites. Use this
+              card as a template for a third project of yours.
+            </p>
+            <ul class="chip-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Fetch API</li>
+            </ul>
+            <p class="project-card__links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__intro">
+          This form is validated in the browser only. It does not send email
+          yet — a success message appears on the page after a valid submit.
+        </p>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              required
+            />
+            <p class="field-error" id="name-error" hidden></p>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+            <p class="field-error" id="email-error" hidden></p>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <p class="field-error" id="message-error" hidden></p>
+          </div>
+          <button class="btn" type="submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status" hidden></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Akshay. All rights reserved.</p>
+      <p class="site-footer__links">
+        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
